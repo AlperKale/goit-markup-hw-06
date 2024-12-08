@@ -27,7 +27,7 @@ img {
   white-space: nowrap;
   width: 1px;
 }
-.big-title {
+.title-home {
   text-align: center;
   font-family: Roboto;
   font-size: 36px;
@@ -75,7 +75,7 @@ a {
   letter-spacing: 0.02em;
   text-transform: uppercase;
 }
-.mobile-btn {
+.mobile-button {
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -214,7 +214,7 @@ a {
     align-items: center;
     padding: 17.5px 0;
   }
-  .mobile-btn {
+  .mobile-button {
     display: flex;
     margin-right: 16px;
   }
@@ -222,7 +222,7 @@ a {
     padding-bottom: 72px;
     padding-top: 72px;
   }
-  .big-title {
+  .title-home {
     margin: 0 auto;
     width: 216px;
     text-align: center;
@@ -278,7 +278,7 @@ a {
   .advantage {
     margin: 0;
   }
-  .punkt {
+  .nokta {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -352,7 +352,7 @@ a {
     padding-bottom: 8px;
     text-align: center;
   }
-  .port-list {
+  .teamli {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1078,7 +1078,7 @@ a {
       background-size: cover;
     }
   }
-  .big-title {
+  .title-home {
     color: var(--WHITE, #fff);
     text-align: center;
 
@@ -1116,7 +1116,7 @@ a {
     flex-wrap: wrap;
   }
 
-  .punkt {
+  .nokta {
     gap: 8px;
     width: 356px;
     flex-basis: calc((100% - 24px) / 2);
@@ -1418,7 +1418,7 @@ a {
     background-color: #404bbf;
     border-radius: 2px;
   }
-  .big-title {
+  .title-home {
     color: var(--WHITE, #fff);
     text-align: center;
 
@@ -1548,7 +1548,7 @@ a {
     letter-spacing: 0.32px;
     width: 264px;
   }
-  .punkt {
+  .nokta {
     display: flex;
     align-items: flex-start;
   }
