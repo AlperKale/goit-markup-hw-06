@@ -55,7 +55,7 @@ a {
 .header-links {
   display: none;
 }
-.logo-web {
+.logo-connect {
   display: block;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -181,7 +181,7 @@ a {
   letter-spacing: 0.4px;
 }
 
-.their-descrip {
+.team-definitation {
   color: var(--SLATE, #434455);
   font-family: Roboto;
   font-size: 16px;
@@ -209,7 +209,7 @@ a {
     gap: 16px;
   }
 
-  .logo-web {
+  .logo-connect {
     display: flex;
     align-items: center;
     padding: 17.5px 0;
@@ -369,7 +369,7 @@ a {
     display: flex;
     gap: 24px;
   }
-  .social-link {
+  .media-connect {
     fill: white;
     background-color: #4d5ae5;
     border-radius: 50%;
@@ -381,7 +381,7 @@ a {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .social-link:hover {
+  .media-connect:hover {
     background-color: #404bbf;
     color: #f4f4fd;
   }
@@ -394,7 +394,7 @@ a {
   .introduction-two {
     margin-bottom: 72px;
   }
-  .list-portfolio {
+  .portfolio-item {
     display: flex;
     flex-direction: column;
     gap: 48px;
@@ -405,7 +405,7 @@ a {
     margin: 0;
     padding-bottom: 8px;
   }
-  .their-descrip {
+  .team-definitation {
     margin: 0;
   }
   .app-function {
@@ -953,14 +953,14 @@ a {
     display: flex;
     margin-top: 0;
   }
-  .logo-web-tablet {
+  .logo-connect-tablet {
     display: none;
   }
 }
 @media screen and (min-width: 768px) {
   .address,
   .header-links,
-  .logo-web {
+  .logo-connect {
     display: flex;
   }
   .header-container {
@@ -977,7 +977,7 @@ a {
     padding-right: 16px;
     margin: 0 auto;
   }
-  .logo-web-tablet {
+  .logo-connect-tablet {
     display: block;
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
@@ -1189,7 +1189,7 @@ a {
     /* 111.111% */
     letter-spacing: 0.72px;
   }
-  .list-portfolio {
+  .portfolio-item {
     display: flex;
     flex-wrap: wrap;
     row-gap: 72px;
@@ -1221,7 +1221,7 @@ a {
     /* 120% */
     letter-spacing: 0.4px;
   }
-  .their-descrip {
+  .team-definitation {
     color: var(--SLATE, #434455);
 
     /* Body */
@@ -1553,7 +1553,7 @@ a {
     align-items: flex-start;
   }
 
-  .list-portfolio {
+  .portfolio-item {
     display: flex;
     row-gap: 48px;
     margin-left: 0;
@@ -1679,11 +1679,11 @@ a {
     margin-top: 0;
   }
 
-  .social-link {
+  .media-connect {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .social-link:hover {
+  .media-connect:hover {
     background-color: #31d0aa;
   }
   .email-address {
